@@ -1,14 +1,4 @@
-[package]
-name = "spartan2"
-version = "0.7.0"
-authors = ["Srinath Setty <srinath@microsoft.com>"]
-edition = "2024"
-description = "High-speed zkSNARKs without trusted setup"
-documentation = "https://docs.rs/spartan2"
-readme = "README.md"
-repository = "https://github.com/Microsoft/Spartan2"
-license-file = "LICENSE"
-keywords = ["zkSNARKs", "cryptography", "proofs"]
+
 
 [dependencies]
 bellpepper-core = "0.4.0"
