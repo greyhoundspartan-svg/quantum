@@ -30,9 +30,9 @@ The Greyhound PCS integration is tracked in:
 
 **High-level status:**
 
-- ✅ **Structure and compilation**: The core Greyhound FFI bindings and PCS trait implementation are in place and compile.
-- ✅ **Engines wired in**: `*HyraxEngine` types have been replaced by `*GreyhoundEngine` in the provider layer (with deprecated aliases kept for compatibility).
-- ⚠️ **Production hardening needed**:
+- **Structure and compilation**: The core Greyhound FFI bindings and PCS trait implementation are in place and compile.
+- **Engines wired in**: `*HyraxEngine` types have been replaced by `*GreyhoundEngine` in the provider layer (with deprecated aliases kept for compatibility).
+-  **Production hardening needed**:
   - Memory management around FFI (RAII wrappers, proper clean-up).
   - Serialization of proof structures.
   - Proper multilinear polynomial evaluation and point handling.
